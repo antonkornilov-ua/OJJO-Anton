@@ -126,3 +126,84 @@ h1 {
   padding-left: 15px;
   cursor: pointer;
 }
+/* Второй экран */
+.container_second{
+max-width: 1150px;
+margin: 0 auto;
+padding: 0 10px;
+}
+.second_screen_header { 
+display: flex;
+flex-direction: column;
+margin-top: 120px;
+margin-bottom: 60px;
+}
+.second_screen_text1{
+color: #000;
+font-weight: 400;
+font-size: 21px;
+margin-bottom: 15px;
+display: flex;
+justify-content: center;
+}
+.second_screen_text2{
+font-family: 'Noto Serif', serif;
+font-weight: 700;
+font-size: 30px;
+color: black;
+display: flex;
+justify-content: center;
+}
+.navigation_bar {
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+.nav_bar_item {
+border: 1px solid #D6D6D6;
+width: 165px;
+min-height: 55px;
+font-weight: 500;
+font-size: 18px;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 6px 6px 0 0 white, 6px 6px 0 0 #898989;
+margin: 24px;
+box-sizing: border-box;
+cursor: pointer;
+}
+.nav_bar_item:hover{
+    background-color: #333333;
+    color: white;
+    transition: all .5s;
+}
+
+.photo_links {
+  margin-top: 55px;
+  display: grid;
+  grid-template-rows: repeat(2, 280px);
+  grid-template-columns: repeat(3, 350px) ;
+  grid-gap: 30px;
+
+}
+.second_screen_photo{
+cursor: pointer;
+position: absolute;
+}
+
+span {
+position: relative;
+cursor: pointer;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 24px;
+letter-spacing: 0.1em;
+top: 222px;
+bottom: 30px;
+display: flex;
+justify-content: center;
+}
