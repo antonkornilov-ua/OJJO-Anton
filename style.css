@@ -183,16 +183,27 @@ cursor: pointer;
 }
 
 .photo_links {
+  margin-top: 55px;
+  display: grid;
+  grid-template-rows: repeat(2, 280px);
+  grid-template-columns: repeat(3, 350px) ;
+  grid-gap: 30px;
+
 }
-.photo_link_1 {
+.second_screen_photo{
+cursor: pointer;
+position: absolute;
 }
-.photo_link_2 {
-}
-.photo_link_3 {
-}
-.photo_link_4 {
-}
-.photo_link_5 {
-}
-.photo_link_6 {
+
+span {
+position: relative;
+cursor: pointer;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 24px;
+letter-spacing: 0.1em;
+top: 222px;
+bottom: 30px;
+display: flex;
+justify-content: center;
 }
