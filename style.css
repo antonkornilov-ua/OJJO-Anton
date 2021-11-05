@@ -177,24 +177,21 @@ box-sizing: border-box;
 cursor: pointer;
 }
 .nav_bar_item:hover{
-    background-color: #333333;
-    color: white;
-    transition: all .5s;
+background-color: #333333;
+color: white;
+transition: all .5s;
 }
-
 .photo_links {
-  margin-top: 55px;
-  display: grid;
-  grid-template-rows: repeat(2, 280px);
-  grid-template-columns: repeat(3, 350px) ;
-  grid-gap: 30px;
-
+margin-top: 55px;
+display: grid;
+grid-template-rows: repeat(2, 280px);
+grid-template-columns: repeat(3, 350px) ;
+grid-gap: 30px;
 }
 .second_screen_photo{
 cursor: pointer;
 position: absolute;
 }
-
 span {
 position: relative;
 cursor: pointer;
@@ -206,4 +203,52 @@ top: 222px;
 bottom: 30px;
 display: flex;
 justify-content: center;
+}
+.third_screen{
+  background-image: url(Images/Third_screen/3.png);
+  margin-top: 120px;
+}
+.third_screen_texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.txt1{
+  margin-top: 100px;
+  font-size: 21px;
+  font-weight: 400;
+}
+.txt2{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.txt3{
+  margin-top: 45px;
+  max-width: 730px;
+  line-height: 140%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+}
+.txt4{
+  margin-top: 60px;
+  width: 224px;
+  height: 51px;
+  background: #fff;
+  border: 1px solid #333333;
+  margin-bottom: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  letter-spacing: 0.1em;
+  line-height: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
 }
